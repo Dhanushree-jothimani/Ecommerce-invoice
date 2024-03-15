@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,table{
+            margin-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="">STOCK CATEGORY</label>
+        <input type="text" id="category" value=""/>        
+        <div>
+            <label for="">PRODUCT NAME:</label>
+            <input type="name" id="pname" value="">
+        </div>
+       <div>
+        <label for="">PRODUCT IMAGE:</label>
+        <input type="file" id="img" value="CHOOSE FILE"/>
+        </div>
+        <div>
+            <label for="">PRODUCT QUANTITY</label>
+            <input type="number" id="pqty" value="1">
+        </div>
+        <div>
+            <label for="">PRODUCT RATE</label>
+            <input type="number" id="prate" value="1">
+
+        </div>
+        <div>
+            <label for="">TOTAL AMOUNT</label>
+            <input text="text" id="tamount" value="1">
+        </div>
+        <div>
+                <input type="button" id="invoice" value="GENERATE INVOICE">
+
+        </div> 
+    </div>
+
+        <table border="2">
+            <thead>
+                <th>PRODUCT ID</th>
+                <th>STOCK CATEGORY</th>
+                <th>PRODUCT NAME</th>
+                <th>PRODUCT IMAGE</th>
+                <th>PRODUCT QUANTITY</th>
+                <th>PRODUCT RATE</th>
+                <th>AMOUNT</th>
+                
+            </thead>
+            <tbody id="tbody">
+           
+            </tbody>
+        </table>
+    
+    
+    <script src="commerce.js"></script>
+</body>
+</html>
